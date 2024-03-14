@@ -24,13 +24,13 @@ if(isset($_GET['dni'], $_GET['password'])) {
                     'nombres' => $row['user_nombres'],
                     'apellidos' => $row['user_apellidos'],
                     'dni' => $row['user_dni'],
-                    'foto' => $row['foto']
+                    'foto' => $row['user_foto']
                 )
             );
         } else {
             $response = array(
                 'status' => 'error',
-                'message' => 'Contraseña incorrecta'
+                'message' => 'Usuario o Contraseña incorrecta'
             );
         }
     } else {

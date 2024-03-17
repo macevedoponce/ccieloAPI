@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Usuario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Camino al Cielo App</h1>
+        <h2>Eliminar Usuario</h2>
+        <form id="deleteForm">
+            <label for="dni">Número de DNI (8 dígitos):</label>
+            <input type="text" id="dni" name="dni" maxlength="8" required><br><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Eliminar Usuario">
+            <p id="message" class="message"></p>
+        </form>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
